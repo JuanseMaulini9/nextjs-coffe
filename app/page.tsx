@@ -1,8 +1,11 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import CarouselTextBanner from "@/components/CarouselTextBanner";
+import FeaturedProducts from "@/components/FeaturedProducts";
 
 export default function Home() {
   return (
-   <Button>Click me</Button>
+    <main>
+      <CarouselTextBanner></CarouselTextBanner>
+      <FeaturedProducts></FeaturedProducts>
+    </main>
   );
 }
